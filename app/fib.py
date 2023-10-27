@@ -4,6 +4,8 @@ When given a position, the function returns the fibonacci at that position in th
 The zeroth number in the fibonacci sequence is 0. The first number is 1
 Negative numbers should return None
 """
+
+
 def fibonacci(position):
     if position < 0:
         return None
